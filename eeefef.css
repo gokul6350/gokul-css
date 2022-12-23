@@ -1,0 +1,94 @@
+body{
+  background-color: #050505;
+}
+
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    padding: 15px 125px;
+
+}
+.efre{
+  margin-left: auto;
+
+  padding-right: 100px;
+  display: flex;
+}
+.sp{
+  
+  
+}  
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #050505;
+}
+
+  
+
+li {
+  
+  font-family:jost;  
+}
+
+li:last-child {
+  border-right: none;
+
+}
+.siup{
+   
+    border-radius: 11px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  border-radius: 11px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+
+.intro{
+  color:#F5F5F5;
+  font-size: 75px;
+  float: left;
+  padding: 0px 50px;
+  vertical-align: middle;
+}
+
+/* The typing effect */
+@keyframes intro0 {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.embed{
+ padding: 0px 50px; 
+}
+.iframe{
+  border-radius: 19px;
+  border:none;
+}
+
+
+
